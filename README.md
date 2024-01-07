@@ -22,3 +22,25 @@ Official submission repo from team Ternity AI for the AI EarthHack competition
 
 ### AI Philosophy
 For all the claimed advancements in GenAI and LLMs these past few years, we would argue that relatively little _true_ progress has been made since the Transformer and BERT in 2017-18, upon which all major models today are built. While there have been some model improvements, the bulk of performance gains has been from simply larger models with more parameters and compute to train. As Ternity AI Founder Haihao Liu proposed in 2020 for his doctoral thesis (under "Graduate Research Fellow" at https://www.linkedin.com/in/haihaoliu/details/experience/), it will be the explicit incorporation of domain knowledge into models, deeply embedded and encoded in the model architecture itself, that will finally bring us out of this plateau.
+
+### Bibliography
+
+Rose, Stuart, et al. "Automatic keyword extraction from individual documents." Text mining: applications and theory (2010): 1-20. DOI: 10.1073/pnas.1914370116
+
+Krenn, Mario, and Anton Zeilinger. "Predicting research trends with semantic and neural networks with an application in quantum physics." Proceedings of the National Academy of Sciences 117.4 (2020): 1910-1916. DOI: 10.1002/9780470689646.ch1
+
+Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W White, Doug Burger, Chi Wang: “AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation”, 2023; [http://arxiv.org/abs/2308.08155 arXiv:2308.08155].
+
+Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell: “Power Hungry Processing: Watts Driving the Cost of AI Deployment?”, 2023; [http://arxiv.org/abs/2311.16863 arXiv:2311.16863].
+
+Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023).
+
+Works consulted for technical background information:
+https://www.4shared.com/folder/12qMHT7K/bib.html
+pw: ditto
+
+Unicode decode error:
+https://medium.com/@anala007/dealing-with-the-unicodedecodeerror-in-pandas-when-reading-csv-files-edc4987bf68b
+
+Co-writing text processing code:
+https://chat.openai.com/share/0b8f0792-3c00-4153-96f0-efb14d6cb368
