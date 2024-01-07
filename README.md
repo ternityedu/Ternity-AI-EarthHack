@@ -1,5 +1,5 @@
 # Ternity AI EarthHack
-Official submission repo from team Ternity AI for the AI EarthHack competition
+Official submission repo from team Ternity AI for the [AI EarthHack competition](genaicompetition.com).
 
 ### Instructions
 
@@ -25,15 +25,15 @@ For all the claimed advancements in GenAI and LLMs these past few years, we woul
 
 ### Bibliography
 
-Rose, Stuart, et al. "Automatic keyword extraction from individual documents." Text mining: applications and theory (2010): 1-20. DOI: 10.1073/pnas.1914370116
+Rose, Stuart, et al. "Automatic keyword extraction from individual documents." Text mining: applications and theory (2010): 1-20. doi:[10.1002/9780470689646.ch1](https://doi.org/10.1002/9780470689646.ch1).
 
-Krenn, Mario, and Anton Zeilinger. "Predicting research trends with semantic and neural networks with an application in quantum physics." Proceedings of the National Academy of Sciences 117.4 (2020): 1910-1916. DOI: 10.1002/9780470689646.ch1
+Krenn, Mario, and Anton Zeilinger. "Predicting research trends with semantic and neural networks with an application in quantum physics." Proceedings of the National Academy of Sciences 117.4 (2020): 1910-1916. doi:[10.1073/pnas.1914370116](https://doi.org/10.1073/pnas.1914370116).
 
-Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W White, Doug Burger, Chi Wang: “AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation”, 2023; [http://arxiv.org/abs/2308.08155 arXiv:2308.08155].
+Qingyun Wu, et al. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", 2023; arXiv:[2308.08155](https://arxiv.org/abs/2308.08155).
 
-Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell: “Power Hungry Processing: Watts Driving the Cost of AI Deployment?”, 2023; [http://arxiv.org/abs/2311.16863 arXiv:2311.16863].
+Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell. "Power Hungry Processing: Watts Driving the Cost of AI Deployment?", 2023; arXiv:[2311.16863](https://arxiv.org/abs/2311.16863).
 
-Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023).
+Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023). isbn:978-3-031-40304-0
 
 Works consulted for technical background information:
 https://www.4shared.com/folder/12qMHT7K/bib.html
