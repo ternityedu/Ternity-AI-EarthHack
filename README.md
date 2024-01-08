@@ -42,7 +42,7 @@ Example chat (including generation of rubric): https://chat.openai.com/share/989
    ```
 5. Adjust the output by asking ChatGPT to be more (or possibly less?) constructively critical.
    
-6. (Optional) Ask ChatGPT to generate a circular economy business idea of its own.
+6. (Optional) Ask ChatGPT to generate and evaluate a circular economy business idea of its own.
 
 ### AI Philosophy
 For all the claimed advancements in GenAI and LLMs these past few years, we would argue that relatively little _true_ progress has been made since the Transformer and BERT in 2017-18, upon which all major models today are built. While there have been some model improvements, the bulk of performance gains has been from simply larger models with more parameters and compute to train. As Ternity AI Founder Haihao Liu proposed in 2020 for his doctoral thesis (under "Graduate Research Fellow" at https://www.linkedin.com/in/haihaoliu/details/experience/), it will be the explicit incorporation of domain knowledge into models, deeply embedded and encoded in the model architecture itself, that will finally bring us out of this plateau.
@@ -53,11 +53,13 @@ Rose, Stuart, et al. "Automatic keyword extraction from individual documents." T
 
 Krenn, Mario, and Anton Zeilinger. "Predicting research trends with semantic and neural networks with an application in quantum physics." Proceedings of the National Academy of Sciences 117.4 (2020): 1910-1916. doi:[10.1073/pnas.1914370116](https://doi.org/10.1073/pnas.1914370116).
 
-Qingyun Wu, et al. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", 2023; [arXiv:2308.08155](https://arxiv.org/abs/2308.08155).
+Qingyun Wu, et al. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", 2023. [arXiv:2308.08155](https://arxiv.org/abs/2308.08155).
 
-Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell. "Power Hungry Processing: Watts Driving the Cost of AI Deployment?", 2023; [arXiv:2311.16863](https://arxiv.org/abs/2311.16863).
+Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell. "Power Hungry Processing: Watts Driving the Cost of AI Deployment?", 2023. [arXiv:2311.16863](https://arxiv.org/abs/2311.16863).
 
-Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023). isbn:978-3-031-40304-0
+Human Restoration Project. "AI Handbook: Artificial Intelligence in the CLassroom", 2023. https://www.humanrestorationproject.org/resources/ai-handbook
+
+Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023). ISBN:978-3-031-40304-0
 
 Works consulted for technical background information:<br/>
 https://www.4shared.com/folder/12qMHT7K/bib.html<br/>
