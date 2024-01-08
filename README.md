@@ -3,6 +3,8 @@ Official submission repo from team Ternity AI for the [AI EarthHack competition]
 
 ### Instructions
 
+#### Text preprocessing/cleaning and dataset visualization
+
 1. Download knowledge base of articles into local copy of repository.
    Some articles are not open access, hence the exclusion of the entire `rag_kb` folder from this public repo. The folder contains two sub-folders, one for each role ("internal monologue") that CirconBot can take on, "investor" and "scholar".<br/>
    Link: https://www.4shared.com/folder/Ja_zfK4n/rag_kb.html<br/>
@@ -19,6 +21,28 @@ Official submission repo from team Ternity AI for the [AI EarthHack competition]
    ``` python3 main.py ```
 
 6. (Optional) You will likely notice the wordclouds dominated by a few big words. Some have already been manually excluded, but you can add more words to exclude by adding them to the `EXCLUDE` list in `utils.py`. This allows you to focus on whichever level of generality you want (e.g. one could exclude many of the most general words to get a sense of specific ideas).
+
+#### Basic evaluation rubric with ChatGPT-3.5
+##### (Free OOTB solution with zero setup)
+
+Example chat (including generation of rubric): https://chat.openai.com/share/989bec29-784e-4013-8074-885da3c241fc
+
+1. Provide the following instructions to ChatGPT:
+
+   ```You are a former teacher who is familiar with assignment grading rubrics for student assessment. You have since had a career as both an academic researcher studying the envoriment impact of new technologies and businesses, as well as a startup founder as well as investor who understands the market and industry around green business ventures. You will now transfer those all those skills, knowledge, and expertise, and use the provided rubric to evaluate new circular economy business ideas based on 6 evaluation criteria.```
+
+3. Copy and paste the evaluation rubric from `Evaluation Rubric.md`.
+   
+4. Provide a proposed business idea in the following format:
+
+   ```
+   Business Idea Name
+   Problem: [problem description goes here]
+   Solution: [proposed solution goes here]
+   ```
+5. Adjust the output by asking ChatGPT to be more (or possibly less?) constructively critical.
+   
+6. (Optional) Ask ChatGPT to generate a circular economy business idea of its own.
 
 ### AI Philosophy
 For all the claimed advancements in GenAI and LLMs these past few years, we would argue that relatively little _true_ progress has been made since the Transformer and BERT in 2017-18, upon which all major models today are built. While there have been some model improvements, the bulk of performance gains has been from simply larger models with more parameters and compute to train. As Ternity AI Founder Haihao Liu proposed in 2020 for his doctoral thesis (under "Graduate Research Fellow" at https://www.linkedin.com/in/haihaoliu/details/experience/), it will be the explicit incorporation of domain knowledge into models, deeply embedded and encoded in the model architecture itself, that will finally bring us out of this plateau.
