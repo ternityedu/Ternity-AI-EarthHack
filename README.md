@@ -65,20 +65,16 @@ Rose, Stuart, et al. "Automatic keyword extraction from individual documents." T
 
 Krenn, Mario, and Anton Zeilinger. "Predicting research trends with semantic and neural networks with an application in quantum physics." Proceedings of the National Academy of Sciences 117.4 (2020): 1910-1916. doi:[10.1073/pnas.1914370116](https://doi.org/10.1073/pnas.1914370116).
 
-Qingyun Wu, et al. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", 2023. [arXiv:2308.08155](https://arxiv.org/abs/2308.08155).
+Qingyun Wu, et al. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation", Oct 2023. [arXiv:2308.08155](https://arxiv.org/abs/2308.08155).
 
-Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell. "Power Hungry Processing: Watts Driving the Cost of AI Deployment?", 2023. [arXiv:2311.16863](https://arxiv.org/abs/2311.16863).
+Alexandra Sasha Luccioni, Yacine Jernite, Emma Strubell. "Power Hungry Processing: Watts Driving the Cost of AI Deployment?", Nov 2023. [arXiv:2311.16863](https://arxiv.org/abs/2311.16863).
 
-Human Restoration Project. "AI Handbook: Artificial Intelligence in the CLassroom", 2023. https://www.humanrestorationproject.org/resources/ai-handbook
+Human Restoration Project. "AI Handbook: Artificial Intelligence in the CLassroom", Oct 2023. https://www.humanrestorationproject.org/resources/ai-handbook
+
+Sumit Kumal. "A Survey of Retrieval-Augmented Generation for LLMs, Improving Sequential Recommendation via Fourier Transform, and More!", Dec 2023. https://recsys.substack.com/p/a-survey-of-retrieval-augmented-generation
 
 Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023). ISBN:978-3-031-40304-0
 
-Works consulted for technical background information:<br/>
+Other consulted for general technical background information:<br/>
 https://www.4shared.com/folder/12qMHT7K/bib.html<br/>
 pw: ditto
-
-Unicode decode error:<br/>
-https://medium.com/@anala007/dealing-with-the-unicodedecodeerror-in-pandas-when-reading-csv-files-edc4987bf68b
-
-Co-writing text processing code:
-https://chat.openai.com/share/0b8f0792-3c00-4153-96f0-efb14d6cb368
