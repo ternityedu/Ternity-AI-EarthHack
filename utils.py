@@ -9,6 +9,15 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from wordcloud import WordCloud
 
+'''
+References
+
+Unicode decode error:
+https://medium.com/@anala007/dealing-with-the-unicodedecodeerror-in-pandas-when-reading-csv-files-edc4987bf68b
+
+Co-writing text processing code:
+https://chat.openai.com/share/0b8f0792-3c00-4153-96f0-efb14d6cb368
+'''
 
 # Download NLTK resources (run this once)
 nltk.download('punkt')
