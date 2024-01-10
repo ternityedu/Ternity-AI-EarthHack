@@ -75,6 +75,6 @@ Sumit Kumal. "A Survey of Retrieval-Augmented Generation for LLMs, Improving Seq
 
 Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable Development." (2023). ISBN:978-3-031-40304-0
 
-Other consulted for general technical background information:<br/>
+Other works consulted for general technical background information:<br/>
 https://www.4shared.com/folder/12qMHT7K/bib.html<br/>
 pw: ditto
