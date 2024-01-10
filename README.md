@@ -26,7 +26,7 @@ Example chat (including generation of rubric): https://chat.openai.com/share/989
 
 1. Provide the following instructions to ChatGPT:
 
-   ```You are a former teacher who is familiar with assignment grading rubrics for student assessment. You have since had a career as both an academic researcher studying the envoriment impact of new technologies and businesses, as well as a startup founder as well as investor who understands the market and industry around green business ventures. You will now transfer those all those skills, knowledge, and expertise, and use the provided rubric to evaluate new circular economy business ideas based on 6 evaluation criteria.```
+   ```You are a former teacher who is familiar with assignment grading rubrics for student assessment. You have since had a career as both an academic researcher studying the environmental impact of new technologies and businesses, as well as a startup founder and investor who understands the market and industry around green business ventures. You will now transfer all those skills, knowledge, and expertise, and use the provided rubric to evaluate new circular economy business ideas based on 6 evaluation criteria.```
 
 2. Copy and paste the evaluation rubric from `Evaluation Rubric.md`.
    
@@ -46,16 +46,18 @@ Example chat (including generation of rubric): https://chat.openai.com/share/989
 1. Download knowledge base of articles into local copy of repository.
    Some articles are not open access, hence the exclusion of the entire `rag_kb` folder from this public repo. The folder contains two sub-folders, one for each role ("internal monologue") that CirconBot can take on, "investor" and "scholar".<br/>
    Link: https://www.4shared.com/folder/Ja_zfK4n/rag_kb.html<br/>
-   pw: repo name with parts in reverse order, no hyphens or spaces
+   pw: repo name with parts in reverse order, a-z characters only
 
 2. Follow the instructions at https://platform.openai.com/docs/assistants/tools/knowledge-retrieval to augment code in `CirconBot.py` to train two separate assistants, one on the 54 documents in `rag_kb/investor`, the other on the 65 documents in `rag_kb/investor`.
 
 3. Run `CirconBot.py` in CLI and follow prompts to input problem and solution, with combined evaluation from both experts.
+   
+   ``` python3 CirconBot.py ```
 
 4. (Optional) Load `CirconBot.py` as a module in your code. Available functions to call: `get_assistant_response(assistant, prompt)`, for getting a single expert's opinion, and `combined_evaluation(problem, solution)`.
 
 ### AI Philosophy
-For all the claimed advancements in GenAI and LLMs these past few years, we would argue that relatively little _true_ progress has been made since the Transformer and BERT in 2017-18, upon which all major models today are built. While there have been some model improvements, the bulk of performance gains has been from simply larger models with more parameters and compute to train. As Ternity AI Founder Haihao Liu proposed in 2020 for his doctoral thesis (under "Graduate Research Fellow" at https://www.linkedin.com/in/haihaoliu/details/experience/), it will be the explicit incorporation of domain knowledge into models, deeply embedded and encoded in the model architecture itself, that will finally bring us out of this plateau.
+For all the claimed advancements in GenAI and LLMs these past few years, we would argue that relatively little _true_ progress has been made since the Transformer and BERT in 2017-18, upon which all major models today are built. While there have been some model improvements, the bulk of the performance gains has been from simply larger models with more parameters and compute to train. As Ternity AI founder Haihao Liu proposed for his doctoral thesis research back in 2020 (full thesis proposal available under "Graduate Research Fellow" at https://www.linkedin.com/in/haihaoliu/details/experience/), we believe it will be the explicit incorporation of domain knowledge into models, deeply embedded and encoded in the model architecture itself, that will finally bring us out of this plateau.
 
 ### Bibliography
 
