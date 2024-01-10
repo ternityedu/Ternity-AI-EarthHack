@@ -1,6 +1,8 @@
 # Ternity AI EarthHack
 Official submission repo from team Ternity AI for the [AI EarthHack competition](genaicompetition.com)
 
+Link to walkthrough video: https://drive.google.com/file/d/1SY-F1VMOpy8lFOixTF_z2X_1nTG5iKKc/view
+
 ### Instructions
 
 For all: Run the following to install requirements, preferably on Python 3.11.
