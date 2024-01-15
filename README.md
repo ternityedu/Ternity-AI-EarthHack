@@ -46,7 +46,7 @@ Example chat (including generation of rubric): https://chat.openai.com/share/989
 1. Download knowledge base of articles into local copy of repository.
    Some articles are not open access, hence the exclusion of the entire `rag_kb` folder from this public repo. The folder contains two sub-folders, one for each role ("internal monologue") that CirconBot can take on, "investor" and "scholar".<br/>
    Link: https://www.4shared.com/folder/Ja_zfK4n/rag_kb.html<br/>
-   pw: repo name with parts in reverse order, a-z characters only
+   pw: reach out via email, see https://ternity.education
 
 2. Follow the instructions at https://platform.openai.com/docs/assistants/tools/knowledge-retrieval to augment code in `CirconBot.py` to train two separate assistants, one on the 54 documents in `rag_kb/investor`, the other on the 65 documents in `rag_kb/investor`.
 
@@ -77,4 +77,4 @@ Singh, Pardeep, et al. "Green Circular Economy: A New Paradigm for Sustainable D
 
 Other works consulted for general technical background information:<br/>
 https://www.4shared.com/folder/12qMHT7K/bib.html<br/>
-pw: ditto
+pw: reach out via email, see https://ternity.education
